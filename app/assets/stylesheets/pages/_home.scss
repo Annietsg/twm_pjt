@@ -3,8 +3,9 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 body{
-    font-family: 'Open Sans', sans-serif;
-    background: #E8B1CE;
+    font-family: 'Avenir';
+    color: white;
+    background: #D7649C;
     border-color: white;
 }
 .logo i {
@@ -28,9 +29,16 @@ body{
   line-height: 19px;
 }
 
+.col-sm-8{
+  padding: 70px;
+
+}
+
 header{
-  background: #D7649C;
+  background: #E8B1CE;
   padding-top: 20px;
+  border-style: solid;
+  border-color: #E8B1CE #E8B1CE white #E8B1CE;
 }
 header .form-group{
   margin-bottom: 0px;
@@ -68,13 +76,15 @@ footer hr{
 }
 .footer-options ul li a{
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 .copyrights{
   margin-top: 20px;
 }
 
 .btn-primary{
-  background: #D7649C;
+  background: #E8B1CE;
   border-color:#D7649C;
 }
+
+
